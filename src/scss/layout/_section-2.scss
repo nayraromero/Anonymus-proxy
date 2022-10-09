@@ -20,6 +20,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     text-align: center;
+    @media screen and (min-width:768px){
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      text-align: center;
+      margin-left: 39px;
+      margin-right: 39px;
+    }
 
     &__title {
       padding-top: 49px;
@@ -29,6 +36,10 @@
       font-weight: 800;
       margin-left: 68px;
       margin-right: 68px;
+      @media screen and (min-width:768px){
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
     &__text {
       margin-left: 70px;
@@ -36,6 +47,11 @@
       font-family: var(--regular-font);
       font-size: 18px;
       line-height: 1.67;
+      @media screen and (min-width:768px){
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 57px;
+      }
     }
     &__button {
       width: 100%;
@@ -48,6 +64,13 @@
       border-radius: 22.5px;
       font-size: 20px;
       font-family: var(--regular-font);
+      cursor: pointer;
+      @media screen and (min-width:768px){
+        margin-bottom: 60px;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        
+      }
     }
   }
 }
