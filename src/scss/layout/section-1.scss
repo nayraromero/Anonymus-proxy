@@ -1,0 +1,41 @@
+:root{
+    --title-font: 'Roboto Slab', serif;
+    --regular-font:'Roboto', sans-serif;
+}
+.section-1{
+    padding: 25px 15px 0px 15px;
+    &__p{
+        padding-top: 37px;
+        padding-bottom: 10px;
+        font-family: var(--regular-font);
+        color: #8ccbea;
+        font-size: 14px;
+    }
+    &__title{
+        font-size: 24px;
+        font-family: var(--title-font);
+        font-weight: 800;
+        text-transform: capitalize;
+        line-height: 1.25;
+    }
+    &__subtitle{
+        padding-top: 20px;
+        font-family: var(--regular-font);
+        color: #4a4a4a;
+        font-size: 18px;
+        line-height: 1.67;
+    }
+    &__button{
+        margin-top: 26px;
+        margin-bottom: 35px;
+        color: #f26002;
+        border: 2px solid #f26002;
+        background-color: white;
+        border-radius: 22.5px;
+        height: 45px;
+        width: 76px;
+        font-size: 20px;
+        font-family: var(--regular-font);
+        font-weight: 500;
+    }
+}
