@@ -2,6 +2,24 @@
   --font-color: white;
   font-family: "Roboto", sans-serif;
 }
+@keyframes color{
+  0%{
+    background-color: white;
+    scale: 1;
+  }
+  25%{
+    background-color: #eff9ff;
+    scale: 1.5;
+  }
+  50%{
+    background-color: #304268;
+    scale: 1.5;
+  }
+  100%{
+    background-color: white;
+    scale: 1;
+  }
+}
 .footer {
   background-color: #304268;
   display: flex;
@@ -23,6 +41,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    animation: color 3s linear 1s infinite alternate;
   }
   .menu {
     display: flex;
