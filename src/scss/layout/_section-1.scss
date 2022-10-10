@@ -59,6 +59,11 @@
     justify-content: center;
     margin-bottom: 45px;
     margin-top: 26px;
+    &:hover{
+      transition: all 2s;
+      opacity: 0.1;
+      transform: rotate(1080deg);
+    }
     @media all and (min-width: 768px) {
         margin-bottom: 60px;
       }
