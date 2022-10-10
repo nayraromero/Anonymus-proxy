@@ -5,18 +5,24 @@
 
 .section-2 {
   background-color: #eff9ff;
+  padding: 29px 15px 50px;
+  @media all and (min-width: 768px) {
+    padding: 36px 40px 50px 35.7px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 61px 85px 50px 81.2px;
+  }
   &__title {
-    padding-top: 29px;
     font-family: var(--title-font);
     font-weight: 800;
     font-size: 24px;
     text-transform: capitalize;
     text-align: center;
     @media screen and (min-width: 768px) {
-      padding-top: 36px;
+      font-size: 26px;
     }
     @media screen and (min-width: 1200px) {
-      padding-top: 61px;
+      font-size: 32px;
     }
   }
   &__grid {
@@ -28,8 +34,7 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto auto;
       text-align: center;
-      margin-left: 39px;
-      margin-right: 39px;
+      column-gap: 30px;
     }
     &__title {
       padding-top: 49px;
@@ -39,12 +44,16 @@
       font-weight: 800;
       @media screen and (min-width: 768px) {
         padding-top: 38px;
+        font-size: 24px;
       }
     }
     &__text {
       font-family: var(--regular-font);
       font-size: 18px;
       line-height: 1.67;
+      @media screen and (min-width: 768px) {
+        font-size: 20px;
+      }
     }
     &__link {
       width: 184px;
@@ -64,6 +73,11 @@
         margin-bottom: 60px;
         grid-column: span 3;
         margin-top: 57px;
+        width: 210px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 255px;
+        text-transform: capitalize;
       }
     }
   }

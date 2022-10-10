@@ -40,7 +40,10 @@
       padding-top: 300.3px;
       @media all and (min-width: 768px) {
         font-size: 80px;
-        
+        padding-top: 220.3px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 100px;
       }
     }
     &__h2 {
@@ -54,19 +57,27 @@
         font-size: 24px;
         width: 300px;
       }
+      @media all and (min-width: 1200px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 34px;
+      }
     }
-    &__button {
+    &__icon {
       margin-top: 20px;
-      height: 45px;
-      width: 45px;
-      line-height: 50%;
+      width: 37.9px;
+      height: 37.9px;
       border-radius: 50%;
-      border: 1px solid white;
+      background-color: white;
       cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       @media all and (min-width: 768px) {
-       margin-bottom: 60px;
-       margin-top: 0px;
+        width: 45px;
+        height: 45px;
+        margin-top: 5px;
+      }
     }
   }
-}
 }
