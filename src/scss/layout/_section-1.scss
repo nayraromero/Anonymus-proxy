@@ -4,13 +4,13 @@
 }
 .section-1 {
   padding: 25px 15px 0px 15px;
-  @media all and (min-width:768px){
-    padding-left:39px;
-    padding-right:39px;
+  @media all and (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
   }
-  @media all and (min-width:1200px){
-    padding-left:275px;
-    padding-right:275px;
+  @media all and (min-width: 1200px) {
+    padding-left: 275px;
+    padding-right: 275px;
   }
   &__p {
     padding-top: 37px;
@@ -18,7 +18,7 @@
     font-family: var(--regular-font);
     color: #8ccbea;
     font-size: 14px;
-    @media all and (min-width:1200px){
+    @media all and (min-width: 1200px) {
       font-size: 16px;
     }
   }
@@ -28,12 +28,12 @@
     font-weight: 800;
     text-transform: capitalize;
     line-height: 1.25;
-    @media all and (min-width:768px){
-        font-size: 26px;
-      }
-      @media all and (min-width:1200px){
-        font-size: 32px;
-      }
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 32px;
+    }
   }
   &__subtitle {
     padding-top: 20px;
@@ -45,10 +45,10 @@
       padding-top: 27px;
       font-size: 20px;
     }
-    @media all and (min-width:1200px){
-        padding-top: 32px;
-        font-size: 20px;
-      }
+    @media all and (min-width: 1200px) {
+      padding-top: 32px;
+      font-size: 20px;
+    }
   }
   &__button {
     border: 2px solid #f26002;
@@ -62,17 +62,17 @@
     justify-content: center;
     margin-bottom: 45px;
     margin-top: 26px;
-    &:hover{
+    &:hover {
       transition: all 2s;
       opacity: 0.1;
       transform: rotate(1080deg);
     }
     @media all and (min-width: 768px) {
-        margin-bottom: 60px;
-      }
-      @media all and (min-width: 1200px) {
-        width: 160px;
-      }
+      margin-bottom: 60px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 160px;
+    }
     &__link {
       text-decoration: none;
       font-size: 20px;
