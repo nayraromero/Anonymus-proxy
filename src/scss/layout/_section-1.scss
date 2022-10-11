@@ -18,6 +18,9 @@
     font-family: var(--regular-font);
     color: #8ccbea;
     font-size: 14px;
+    @media all and (min-width:1200px){
+      font-size: 16px;
+    }
   }
   &__title {
     font-size: 24px;
