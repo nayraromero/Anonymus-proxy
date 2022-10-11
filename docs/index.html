@@ -8,11 +8,11 @@
     <title>Evaluación final módulo 1 Nayra Romero</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="./assets/css/main.css" class="css">
 </head>
+
 <body>
     <header class="header" id="header">
         <a href="https://adalab.es/" target="_blank" class="header__menu">
@@ -21,10 +21,8 @@
         <section class="hero">
             <h1 class="hero__h1">Anonymous proxy</h1>
             <h2 class="hero__h2">In hac habitasse platea dictumst.</h2>
-            <a href="#section-2">
-                <button class="hero__button">
-                    <img src="./assets/images/ico-scroll-down.svg" alt="Flecha hacia abajo">
-                </button>
+            <a href="#section-2" class="hero__icon">
+                <img src="./assets/images/ico-scroll-down.svg" alt="Flecha hacia abajo">
             </a>
         </section>
     </header>
@@ -40,7 +38,9 @@
                 Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
                 semper sodales rutrum.
             </p>
-            <button class="section-1__button">Go</button>
+            <div class="section-1__button">
+                <a href="#" class="section-1__button__link">Go</a>
+            </div>
         </section>
         <section class="section-2" id="section-2">
             <h4 class="section-2__title">
@@ -52,7 +52,7 @@
                         Ut sed metus
                     </p>
                     <p class="section-2__grid__text">
-                        Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet, consectetur.
                     </p>
                 </section>
                 <section>
@@ -72,35 +72,32 @@
                     </p>
                 </section>
                 <a href="#" class="section-2__grid__link">More reasons</a>
-                    
-            
             </section>
         </section>
     </main>
     <footer class="footer">
-        <a href="#header">
-            <button class="footer__button">
-                <img src="./assets/images/ico-arrow.svg" alt="Flecha hacia arriba">
-            </button>
-        </a>
-      <section class="footer__info">
-        <a href="https://adalab.es/" target="_blank" class="footer__info__link">Articles</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__info__link">Books</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__info__link">Events</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__info__link">Reasons</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__info__link">Tips</a>
-      </section>
-      <section class="footer__media">
-        <a href="https://adalab.es/" target="_blank" class="footer__media__link">Twitter</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__media__link">Instagram</a>
-        <a href="https://adalab.es/" target="_blank" class="footer__media__link">Mastodon.social</a>
-      </section>
-      <section class="footer__copy">
-        <p>&copy;2022</p>
-        <p>We <span class="footer__copy__heart">&#10084;</span> components</p>
-      </section>
+      <a href="#header" class="footer__icon">
+        <img src="./assets/images/ico-arrow.svg" alt="Flecha hacia arriba">
+      </a>
+      <div class="menu">
+        <nav class="menu__info">
+          <a href="https://adalab.es/" target="_blank" class="menu__info__link">Articles</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__info__link">Books</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__info__link">Events</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__info__link">Reasons</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__info__link">Tips</a>
+        </nav>
+        <nav class="menu__media">
+          <a href="https://adalab.es/" target="_blank" class="menu__media__link">Twitter</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__media__link">Instagram</a>
+          <a href="https://adalab.es/" target="_blank" class="menu__media__link">Mastodon.social</a>
+        </nav>
+        <nav class="menu__copy">
+          <p>&copy;2022</p>
+          <p>We <span class="menu__copy__heart">&#10084;</span> components</p>
+        </nav>
+      </div>
     </footer>
-
 </body>
 
 </html>
